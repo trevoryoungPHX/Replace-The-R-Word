@@ -1,0 +1,237 @@
+
+.nav-wrapper {
+  background: linear-gradient(to right, #0164A5 , #35A5E1);
+  padding-left: 30px;
+  padding-right: 10px;
+  border-bottom: 10px solid black;
+}
+
+
+.coverPhoto {
+  background-color: black;
+  background-image: url('./green.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid black;
+}
+
+.caption {
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+.replace {
+  font-size: 100px;
+  font-family: 'Bowlby One SC', cursive;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+.replace:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.sectionTitle {
+  font-family: 'Bowlby One SC', cursive;
+  color: #0164A5;
+  text-shadow: 2px 2px 1px rgba(1, 1, 1, .5);
+}
+
+.leftHalf {
+  width: 35%;
+  background-image: url('./thatsso.png');
+  overflow-y: scroll;
+  background-repeat: no-repeat;
+  position: static;
+  padding-top: 700px;
+  float: left;
+  max-height: 750px;
+  border-right: 10px solid black;
+}
+
+.rightHalf {
+  overflow-y: scroll;
+  position: relative;
+  width: 60%;
+  margin-right: 10px;
+  float: left;
+  padding-left: 30px;
+  max-height: 700px;
+  background-color: #F5F2EC;
+  z-index: 3;
+
+}
+
+.sectionLine {
+  border-bottom: 10px solid black;
+  padding-top: 699px;
+  position: sticky;
+  background-color: #F5F2EC;
+  z-index: -1000;
+}
+
+#tryYourself {
+  font-size: 50px;
+  font-family: 'Bowlby One SC', cursive;
+  color: black;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  text-align: center;
+  position: static;
+}
+
+.resultsDiv1 {
+  margin-left: 150px;
+  margin-right: 150px;
+  border-bottom: 10px solid black;
+}
+
+.resultsDiv {
+  text-align: center;
+}
+
+#results {
+  background-image: url('./clouds.jpg');
+  border: 10px solid black;
+  border-radius: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 340px;
+  font-size: 30px;
+  font-family: 'Bowlby One SC', cursive;
+  color: white;
+  text-shadow: 2px 2px 1px rgba(1, 1, 1, .5);
+  box-shadow: 10px 10px 1px rgba(1, 1, 1, .25);
+  overflow-y: scroll;
+}
+
+form {
+  width:500px;
+  margin:50px auto;
+}
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:2px solid #dbdbdb;
+  color: black;
+  font-family: robotto;
+}
+
+.button {
+  position:relative;
+  padding:6px 15px;
+  border:2px solid #207cca;
+  border-radius: 25px;
+  background-color:#207cca;
+  color:#fafafa;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: fixed;
+
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+#learnMore {
+  font-size: 50px;
+  font-family: 'Bowlby One SC', cursive;
+  color: black;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  text-align: center;
+  border-bottom: 10px solid black;
+  padding-bottom: 15px;
+
+}
+
+
+.descriptions {
+  text-align: center;
+
+}
+
+.partners {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+
+}
+
+.grass {
+  background-image: url("./grass.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.spreadTheWord {
+  font-family: 'Bowlby One SC', cursive;
+  color: #6ECDE3;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  text-align: center;
+}
+
+.spreadTheWord:hover {
+  color: #0083C7;
+}
+
+.pledgeButton {
+  border: 4px solid grey;
+  border-radius: 10px;
+}
+
+.pledgeButton:hover {
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.video {
+  border: 10px solid black;
+  border-radius: 25px;
+  box-shadow: 10px 10px 1px rgba(1, 1, 1, .25);
+}
+
+.footer {
+  height: 75px;
+  background: linear-gradient(to right, #4B830B , #ADE56C);
+  padding-left: 30px;
+  color: white;
+  border-top: 10px solid black;
+}
+
+#search {
+background-color: black;
+border: none;
+color: white;
+padding: 10px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border: 2px solid black;
+border-radius: 10px;
+font-family: sans-serif;
+}
+
+#clear {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+
+.largertext {
+  font-size: 20px;
+}

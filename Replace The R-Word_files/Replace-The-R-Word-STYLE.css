@@ -1,0 +1,172 @@
+
+.nav-wrapper {
+  background-color: #0164A5;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.coverPhoto {
+  background-color: black;
+  background-image: url('./green.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid black;
+}
+
+.caption {
+  padding-top: 300px;
+  padding-bottom: 50px;
+}
+
+.replace {
+  font-size: 100px;
+  font-family: 'Bowlby One SC', cursive;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+.sectionTitle {
+  font-family: 'Bowlby One SC', cursive;
+  color: #0164A5;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+}
+
+.leftHalf {
+  width: 35%;
+  background-image: url('./thatsso.png');
+  background-repeat: no-repeat;
+  position: static;
+  padding-top: 700px;
+  float: left;
+  max-height: 750px;
+  border-right: 10px solid black;
+
+}
+
+.rightHalf {
+  position: relative;
+  width: 60%;
+  margin-right: 10px;
+  float: left;
+  padding-left: 30px;
+  max-height: 750px;
+  overflow-y: scroll;
+}
+
+#tryYourself {
+  font-size: 50px;
+  font-family: 'Bowlby One SC', cursive;
+  color: black;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  text-align: center;
+  position: static;
+}
+
+.resultsDiv1 {
+  margin-left: 150px;
+  margin-right: 150px;
+  border-bottom: 10px solid black;
+}
+
+.resultsDiv {
+  text-align: center;
+}
+
+#results {
+  background-color: #0164A5;
+  border: 10px solid black;
+  border-radius: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 200px;
+  font-size: 24px;
+  overflow-y: scroll
+  color: white;
+}
+
+form {
+  width:500px;
+  margin:50px auto;
+}
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:2px solid #dbdbdb;
+  color: black;
+}
+
+.button {
+  position:relative;
+  padding:6px 15px;
+  border:2px solid #207cca;
+  border-radius: 25px;
+  background-color:#207cca;
+  color:#fafafa;
+
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+.learnMore {
+  font-size: 70px;
+  font-family: 'Bowlby One SC', cursive;
+  color: black;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  text-align: center;
+  border-bottom: 10px solid black;
+}
+
+
+.descriptions {
+  text-align: center;
+}
+
+.partners {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.grass {
+  background-image: url("./grass.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.spreadTheWord {
+  font-family: 'Bowlby One SC', cursive;
+  color: #6ECDE3;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+  text-align: center;
+}
+
+.spreadTheWord:hover {
+  color: #0083C7;
+}
+
+.pledgeButton {
+  border: 4px solid grey;
+  border-radius: 10px;
+}
+
+.pledgeButton:hover {
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.video {
+  border: 10px solid black;
+  border-radius: 25px;
+}
+
+.footer {
+  height: 75px;
+  background-color: #0168AB;
+  padding-left: 30px;
+  color: white;
+  border-top: 10px solid black;
+}
