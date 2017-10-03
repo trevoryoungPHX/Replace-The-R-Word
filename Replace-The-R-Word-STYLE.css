@@ -2,18 +2,20 @@
 
 nav {
   position: fixed;
+  z-index: 100000;
 }
 .nav-wrapper {
   background: linear-gradient(to right, #0164A5 , #35A5E1);
   padding-left: 30px;
   padding-right: 10px;
   border-bottom: 10px solid black;
+
 }
 
 
 .coverPhoto {
   background-color: black;
-  background-image: url('./green.jpg');
+  background-image: url('./grass.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 10px solid black;
@@ -29,14 +31,22 @@ nav {
   font-family: 'Bowlby One SC', cursive;
   color: white;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+  0% {
+      opacity: 0.5;
+  }
+  50% {
+      opacity: 1.0;
+  }
+  100% {
+      opacity: 0.5;
+  }
 }
 
-.replace:hover
-{
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-}
 
 .sectionTitle {
   font-family: 'Bowlby One SC', cursive;

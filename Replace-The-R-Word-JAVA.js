@@ -17,10 +17,20 @@ $(document).ready(function(){
   })
 });
 
-
-
-
 // clearbutton
   $("#clear").click(function(){
     $("#results").empty()
   })
+
+
+
+
+
+var rejectWords = ["Retard", "Retarded", "retard", 'retarded']
+  $('#search').click(function(){
+    for (var i =0; i<rejectWords.length; i++) {
+     if($('#scroll').val() === rejectWords[i]){
+        alert('Try looking up new words! Using the R-Word is offensive and there are SO MANY other options for you to use!');
+     }
+   }
+  });
