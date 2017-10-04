@@ -7,11 +7,9 @@ $(document).ready(function(){
     let user_provided_word = $("#scroll").val();
 
     $.get(`http://words.bighugelabs.com/api/2/${key}/${user_provided_word}/json`, function(data){
-      console.log(data);
       data = JSON.parse(data);
       let p = document.createElement("p")
-      $(p).text(data.adjective.syn.join(" "));
-      console.log(data.adjective.syn.join(", "));
+      $(p).html(data.adjective.syn.join('<br>'));
       $("#results").empty().append(p);
         })
   })
@@ -23,14 +21,11 @@ $(document).ready(function(){
   })
 
 
-
-
-
 var rejectWords = ["Retard", "Retarded", "retard", 'retarded']
   $('#search').click(function(){
     for (var i =0; i<rejectWords.length; i++) {
      if($('#scroll').val() === rejectWords[i]){
-        alert('Try looking up new words! Using the R-Word is offensive and there are SO MANY other options for you to use!');
+        alert('Try looking up new words! Using the R-Word is offensive and there are SO MANY other options for you to use! Take the pledge to stop using the r-word by following this link: http://www.r-word.org/r-word-pledge.aspx');
      }
    }
   });
