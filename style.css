@@ -25,6 +25,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 10px solid black;
+  height: 700px;
 }
 
 .caption {
@@ -37,20 +38,6 @@ nav {
   font-family: 'Bowlby One SC', cursive;
   color: white;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
-  -webkit-animation: pulsate 3s ease-out;
-  -webkit-animation-iteration-count: infinite;
-  opacity: 0.5;
-}
-@-webkit-keyframes pulsate {
-  0% {
-      opacity: 0.5;
-  }
-  50% {
-      opacity: 1.0;
-  }
-  100% {
-      opacity: 0.5;
-  }
 }
 
 
@@ -60,31 +47,6 @@ nav {
   text-shadow: 2px 2px 1px rgba(1, 1, 1, .5);
 }
 
-
-.rightHalf {
-  overflow-y: scroll;
-  overflow-x: scroll;
-  position: relative;
-  max-height: 1000px;
-  display:flex;
-  background-color: #F5F2EC;
-  padding-left: 70px;
-  padding-right: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 10px solid black;
-  text-align: center;
-}
-
-.rightHalf > img {
-  border: 10px solid black;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  flex:1;
-}
-.other-section{
-  flex:1;
-}
 
 
 #tryYourself {
@@ -274,7 +236,39 @@ font-family: sans-serif;
   font-family: sans-serif;
 }
 
-
 .largertext {
   font-size: 20px;
+}
+
+
+.description {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.line {
+  border: 5px dashed black;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pulsate {
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+  0% {
+      opacity: 0.5;
+  }
+  50% {
+      opacity: 1.0;
+  }
+  100% {
+      opacity: 0.5;
+  }
 }
